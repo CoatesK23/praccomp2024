@@ -1,0 +1,85 @@
+
+2022-08-05 11:05:29,920 - mitoz.utility.utility - INFO - 
+all.main() got args:
+Namespace(debug=False, outprefix='SRR10414004_mitozALL_minAbundance02_threadNum01', thread_number='1', workdir='./', clade='Arthropoda', genetic_code='auto', species_name='Test sp.', fq1='SRR10414004_1_TRIMMED.fastq.gz', fq2='SRR10414004_2_TRIMMED.fastq.gz', phred64=False, insert_size='250', fastq_read_length='150', data_size_for_mt_assembly=0.0, skip_filter=True, filter_other_para='', assembler='megahit', kmers=[71], kmers_megahit=['21', '29', '39', '59', '79', '99', '119', '141'], kmers_spades=['auto'], memory='50', resume_assembly=False, profiles_dir='/home/undergrads/miniconda3/envs/mitozEnv/lib/python3.9/site-packages/mitoz/profiles', filter_by_taxa=True, requiring_taxa='Araneae', requiring_relax='0', min_abundance='2', func=<function main at 0x7fc422da9ee0>, logger=<Logger mitoz.utility.utility (DEBUG)>)
+
+2022-08-05 11:05:29,920 - mitoz.utility.utility - INFO - 
+all.main() got updated args:
+Namespace(debug=False, outprefix='SRR10414004_mitozALL_minAbundance02_threadNum01', thread_number='1', workdir='/home/undergrads', clade='Arthropoda', genetic_code='auto', species_name='Test sp.', fq1='', fq2='', phred64=False, insert_size='250', fastq_read_length='150', data_size_for_mt_assembly=0.0, skip_filter=True, filter_other_para='', assembler='megahit', kmers=[71], kmers_megahit=['21', '29', '39', '59', '79', '99', '119', '141'], kmers_spades=['auto'], memory='50', resume_assembly=False, profiles_dir='/home/undergrads/miniconda3/envs/mitozEnv/lib/python3.9/site-packages/mitoz/profiles', filter_by_taxa=True, requiring_taxa='Araneae', requiring_relax='0', min_abundance='2', func=<function main at 0x7fc422da9ee0>, logger=<Logger mitoz.utility.utility (DEBUG)>)
+
+2022-08-05 11:05:29,920 - mitoz.utility.utility - INFO - 
+assemble.main() got args:
+{'logger': <Logger mitoz.utility.utility (DEBUG)>, 'workdir': '/home/undergrads/mt_assembly', 'outprefix': 'SRR10414004_mitozALL_minAbundance02_threadNum01', 'thread_number': '1', 'fq1': '', 'fq2': '', 'insert_size': '250', 'fastq_read_length': '150', 'assembler': 'megahit', 'kmers': [71], 'kmers_megahit': ['21', '29', '39', '59', '79', '99', '119', '141'], 'kmers_spades': ['auto'], 'memory': '50', 'resume_assembly': False, 'profiles_dir': '/home/undergrads/miniconda3/envs/mitozEnv/lib/python3.9/site-packages/mitoz/profiles', 'filter_by_taxa': True, 'requiring_taxa': 'Araneae', 'requiring_relax': '0', 'abundance_pattern': 'abun\\=([0-9]+\\.*[0-9]*)', 'min_abundance': '2', 'genetic_code': 'auto', 'clade': 'Arthropoda'}
+
+2022-08-05 11:05:29,920 - mitoz.utility.utility - INFO - 
+assemble.main() got updated args:
+{'logger': <Logger mitoz.utility.utility (DEBUG)>, 'workdir': '/home/undergrads/mt_assembly', 'outprefix': 'SRR10414004_mitozALL_minAbundance02_threadNum01', 'thread_number': '1', 'fq1': '', 'fq2': '', 'insert_size': '250', 'fastq_read_length': '150', 'assembler': 'megahit', 'kmers': [71], 'kmers_megahit': ['21', '29', '39', '59', '79', '99', '119', '141'], 'kmers_spades': ['auto'], 'memory': '50', 'resume_assembly': False, 'profiles_dir': '/home/undergrads/miniconda3/envs/mitozEnv/lib/python3.9/site-packages/mitoz/profiles', 'filter_by_taxa': True, 'requiring_taxa': 'Araneae', 'requiring_relax': '0', 'abundance_pattern': 'abun\\=([0-9]+\\.*[0-9]*)', 'min_abundance': '2', 'genetic_code': '5', 'clade': 'Arthropoda'}
+
+2022-08-05 11:05:29,920 - mitoz.utility.utility - INFO - 
+assemble.main() got
+fq1: 
+fq2: 
+
+2022-08-05 11:05:29,920 - mitoz.utility.utility - INFO - 
+assemble.main() working in /home/undergrads/mt_assembly
+
+2022-08-05 11:05:29,921 - mitoz.utility.utility - INFO - 
+use_megahit() workdir: /home/undergrads/mt_assembly
+
+2022-08-05 11:05:29,921 - mitoz.utility.utility - INFO - 
+use_megahit() creating: /home/undergrads/mt_assembly/megahit
+
+2022-08-05 11:05:29,921 - mitoz.utility.utility - INFO - 
+use_megahit() expected assembly_file: /home/undergrads/mt_assembly/megahit/megahit_out/final.contigs.fa
+
+2022-08-05 11:05:29,921 - mitoz.utility.utility - INFO - 
+megahit  --out-dir ./megahit_out  --num-cpu-threads 1 --k-list 21,29,39,59,79,99,119,141 --memory 500000000000.0 --read 
+
+2022-08-05 11:05:30,029 - mitoz.utility.utility - ERROR - 
+Error occured when running command:
+megahit  --out-dir ./megahit_out  --num-cpu-threads 1 --k-list 21,29,39,59,79,99,119,141 --memory 500000000000.0 --read 
+
+
+2022-08-05 11:05:30,030 - mitoz.utility.utility - WARNING - 
+Can not find assembly_file: /home/undergrads/mt_assembly/megahit/megahit_out/final.contigs.fa
+
+2022-08-05 11:06:51,829 - mitoz.utility.utility - INFO - 
+all.main() got args:
+Namespace(debug=False, outprefix='SRR10414004_mitozALL_threadNum01', thread_number='1', workdir='./', clade='Arthropoda', genetic_code='auto', species_name='Test sp.', fq1='SRR10414004_1_TRIMMED.fastq.gz', fq2='SRR10414004_2_TRIMMED.fastq.gz', phred64=False, insert_size='250', fastq_read_length='150', data_size_for_mt_assembly=0.0, skip_filter=True, filter_other_para='', assembler='megahit', kmers=[71], kmers_megahit=['21', '29', '39', '59', '79', '99', '119', '141'], kmers_spades=['auto'], memory='50', resume_assembly=False, profiles_dir='/home/undergrads/miniconda3/envs/mitozEnv/lib/python3.9/site-packages/mitoz/profiles', filter_by_taxa=True, requiring_taxa='Araneae', requiring_relax='0', min_abundance='2', func=<function main at 0x7f80b4adeee0>, logger=<Logger mitoz.utility.utility (DEBUG)>)
+
+2022-08-05 11:06:51,830 - mitoz.utility.utility - INFO - 
+all.main() got updated args:
+Namespace(debug=False, outprefix='SRR10414004_mitozALL_threadNum01', thread_number='1', workdir='/home/undergrads', clade='Arthropoda', genetic_code='auto', species_name='Test sp.', fq1='', fq2='', phred64=False, insert_size='250', fastq_read_length='150', data_size_for_mt_assembly=0.0, skip_filter=True, filter_other_para='', assembler='megahit', kmers=[71], kmers_megahit=['21', '29', '39', '59', '79', '99', '119', '141'], kmers_spades=['auto'], memory='50', resume_assembly=False, profiles_dir='/home/undergrads/miniconda3/envs/mitozEnv/lib/python3.9/site-packages/mitoz/profiles', filter_by_taxa=True, requiring_taxa='Araneae', requiring_relax='0', min_abundance='2', func=<function main at 0x7f80b4adeee0>, logger=<Logger mitoz.utility.utility (DEBUG)>)
+
+2022-08-05 11:06:51,830 - mitoz.utility.utility - INFO - 
+assemble.main() got args:
+{'logger': <Logger mitoz.utility.utility (DEBUG)>, 'workdir': '/home/undergrads/mt_assembly', 'outprefix': 'SRR10414004_mitozALL_threadNum01', 'thread_number': '1', 'fq1': '', 'fq2': '', 'insert_size': '250', 'fastq_read_length': '150', 'assembler': 'megahit', 'kmers': [71], 'kmers_megahit': ['21', '29', '39', '59', '79', '99', '119', '141'], 'kmers_spades': ['auto'], 'memory': '50', 'resume_assembly': False, 'profiles_dir': '/home/undergrads/miniconda3/envs/mitozEnv/lib/python3.9/site-packages/mitoz/profiles', 'filter_by_taxa': True, 'requiring_taxa': 'Araneae', 'requiring_relax': '0', 'abundance_pattern': 'abun\\=([0-9]+\\.*[0-9]*)', 'min_abundance': '2', 'genetic_code': 'auto', 'clade': 'Arthropoda'}
+
+2022-08-05 11:06:51,830 - mitoz.utility.utility - INFO - 
+assemble.main() got updated args:
+{'logger': <Logger mitoz.utility.utility (DEBUG)>, 'workdir': '/home/undergrads/mt_assembly', 'outprefix': 'SRR10414004_mitozALL_threadNum01', 'thread_number': '1', 'fq1': '', 'fq2': '', 'insert_size': '250', 'fastq_read_length': '150', 'assembler': 'megahit', 'kmers': [71], 'kmers_megahit': ['21', '29', '39', '59', '79', '99', '119', '141'], 'kmers_spades': ['auto'], 'memory': '50', 'resume_assembly': False, 'profiles_dir': '/home/undergrads/miniconda3/envs/mitozEnv/lib/python3.9/site-packages/mitoz/profiles', 'filter_by_taxa': True, 'requiring_taxa': 'Araneae', 'requiring_relax': '0', 'abundance_pattern': 'abun\\=([0-9]+\\.*[0-9]*)', 'min_abundance': '2', 'genetic_code': '5', 'clade': 'Arthropoda'}
+
+2022-08-05 11:06:51,830 - mitoz.utility.utility - INFO - 
+assemble.main() got
+fq1: 
+fq2: 
+
+2022-08-05 11:06:51,830 - mitoz.utility.utility - INFO - 
+assemble.main() working in /home/undergrads/mt_assembly
+
+2022-08-05 11:06:51,830 - mitoz.utility.utility - INFO - 
+use_megahit() workdir: /home/undergrads/mt_assembly
+
+2022-08-05 11:06:51,831 - mitoz.utility.utility - INFO - 
+use_megahit() expected assembly_file: /home/undergrads/mt_assembly/megahit/megahit_out/final.contigs.fa
+
+2022-08-05 11:06:51,831 - mitoz.utility.utility - INFO - 
+megahit  --out-dir ./megahit_out  --num-cpu-threads 1 --k-list 21,29,39,59,79,99,119,141 --memory 500000000000.0 --read 
+
+2022-08-05 11:06:51,923 - mitoz.utility.utility - ERROR - 
+Error occured when running command:
+megahit  --out-dir ./megahit_out  --num-cpu-threads 1 --k-list 21,29,39,59,79,99,119,141 --memory 500000000000.0 --read 
+
+
+2022-08-05 11:06:51,924 - mitoz.utility.utility - WARNING - 
+Can not find assembly_file: /home/undergrads/mt_assembly/megahit/megahit_out/final.contigs.fa
