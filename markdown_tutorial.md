@@ -12,3 +12,22 @@ _This text is italicized_
 ** This text is bolded**
 __This text is also bolded__
 _You **can** combine them_
+
+## BLOCKQUOTES
+
+_My poem_ by Kelsey Coates
+> I am not a poet but I feel like one, 
+>.....  
+
+## LISTS
+unordered 
+*Item 1
+*Item 2
+	* Item 2a
+	* Item 2b
+Ordered 
+1. Item 1
+2. Item 2
+3. Item 3 
+	* Item 3a
+	* Item 3b
