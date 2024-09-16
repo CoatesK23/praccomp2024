@@ -31,3 +31,31 @@ Ordered
 3. Item 3 
 	* Item 3a
 	* Item 3b
+
+##IMAGES
+![Kelsey at ESA](https://www.peraltalab.com/happenings)
+Format \!\[Alt text\]\(url\)
+
+## LINKS
+https://www.peraltalab.com/happenings
+[Peralta Lab](https://www.peraltalab.com/happenings)
+
+## BACKSLASH ESCAPES
+\*Literal asterisks\*
+
+## FENCED CODE BLOCKS
+
+*Generic example
+```
+echo "Hello"
+```
+
+*Python example
+``` pyhton
+print("Hello")
+```
+
+* R example
+``` r
+x <- 4^2
+```
