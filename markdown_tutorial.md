@@ -59,3 +59,18 @@ print("Hello")
 ``` r
 x <- 4^2
 ```
+## TASK LISTS
+- [] this is an incomplete task
+- [x] this is  a complete task
+- [x] @mentions, #refs, [links](), **formatting**, and <del> tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported
+
+## TABLES
+First Header | Second Header
+------------ | -------------
+Content shell 1 | Content shell 2
+Content column 1 | Content column 2 
+
+## EMOJI
+:spider:
+ 
