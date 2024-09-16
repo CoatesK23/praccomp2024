@@ -55,7 +55,7 @@ echo "Hello"
 print("Hello")
 ```
 
-* R example
+*R example
 ``` r
 x <- 4^2
 ```
