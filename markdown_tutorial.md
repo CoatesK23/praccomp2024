@@ -12,6 +12,7 @@ _This text is italicized_
 ** This text is bolded**
 __This text is also bolded__
 _You **can** combine them_
+~This text is striken~
 
 ## BLOCKQUOTES
 
