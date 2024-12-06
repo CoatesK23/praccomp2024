@@ -27,7 +27,7 @@ less -S SILVA_132_SSURef_NR99_13_12_17_opt.arb
   ### Arb and conda were having a hard time working together, so we decided to try a different reference database from Mothur
   wget https://www.arb-silva.de/fileadmin/silva_databases/release_132/Exports/SILVA_132_LSURef_tax_silva.fasta.gz
   gunzip SILVA_132_LSURef_tax_silva.fasta.gz
-  ### We used SILVA database 138 to create a BLAST file containing only the 16S sequences from the NFix database. I will try this command again with SILVA 132, and see if that fixes downstream compatibility issues
+  ### We used SILVA database 138 to create a BLAST file containing only the 16S sequences from the NFix database. (In the near future, I will try this command again with SILVA 132, and see if that fixes downstream compatibility issues)
   blastall -p blastn -m 8 -d ../SILVA_dbs/SILVA_138.2_LSURef_tax_silva.BLAST.db -i 16S_only_seqs.fasta -o 16S_only_seqs.fasta_BLASTm8.SILVA.out
   ### We copied the SILVA reference database into the Peralta lab directory for future use 
   cp SILVA_132_LSURef_tax_silva.fasta ../SILVA_dbs/
